@@ -1,14 +1,17 @@
 [package]
 name = "lines"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "Counts lines"
-homepage = "https://github.com/Havsalt/lines-rs"
+license = "MIT"
+homepage = "https://github.com/havsalt/lines-rs"
+authors = ["havsalt"]
 
 [dependencies]
-anstyle = "1.0.10"
-clap = { version = "4.5.20", features = ["derive", "wrap_help"] }
-colored = "2.1.0"
+anstyle = "1.0"
+clap = { version = "4.5", features = ["derive", "wrap_help"] }
+colored = "2.1"
+havsalt-clap-styles = "0.1.0"
 
 [profile.release]
 opt-level = "z"
