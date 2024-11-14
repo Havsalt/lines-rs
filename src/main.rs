@@ -7,9 +7,7 @@ use std::{
 
 use clap::Parser;
 use colored::Colorize;
-
-mod styles;
-use styles::STYLES;
+use havsalt_clap_styles::STYLES;
 
 #[derive(Parser, Debug)]
 #[command(
