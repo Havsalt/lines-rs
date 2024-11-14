@@ -5,7 +5,7 @@ edition = "2021"
 description = "Counts lines"
 license = "MIT"
 homepage = "https://github.com/havsalt/lines-rs"
-authors = ["havsalt"]
+authors = ["Havsalt <77575424+Havsalt@users.noreply.github.com>"]
 
 [dependencies]
 anstyle = "1.0"
