@@ -125,6 +125,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "havsalt-clap-styles"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d19013eba79fcce4e463fbefde5367635ebe0c602ed998084f8a0b933f90a227"
+dependencies = [
+ "anstyle",
+ "clap",
+]
+
+[[package]]
 name = "heck"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -150,11 +160,12 @@ checksum = "8e9489c2807c139ffd9c1794f4af0ebe86a828db53ecdc7fea2111d0fed085d1"
 
 [[package]]
 name = "lines"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "anstyle",
  "clap",
  "colored",
+ "havsalt-clap-styles",
 ]
 
 [[package]]
